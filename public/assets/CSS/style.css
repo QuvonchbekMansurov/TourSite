@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 7px;
+  }
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #414b4f;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+nav a,
+nav p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  color: #CCCCCC;
+  font-weight: 600;
+}
+nav .side1,
+nav .side2 {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  color: #CCCCCC;
+}
+nav #d {
+  background-color: #414b4f;
+  border-radius: 3px;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../IMG/popularBg.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+}
+.header .header_text {
+  margin-bottom: 30px;
+}
+.header .header_text p {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header .header_input {
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header .header_input input,
+.header .header_input select {
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 5px;
+}
+.header .header_input .red_btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: red;
+}
+.header .header_input .white_btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.filtr {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 80px;
+  margin: 0;
+}
+.filtr .filtr_nav {
+  width: 100%;
+  padding: 50px;
+}
+.filtr .filtr_nav h1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: serif;
+}
+.filtr .filtr_cards {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.filtr_card {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-color: white;
+}
+.filtr_card .filtr_card_img {
+  width: 300px;
+}
+.filtr_card .filtr_card_img p {
+  position: absolute;
+  background-color: red;
+  padding: 10px;
+  border-radius: 0px 8px 8px 0px;
+  color: white;
+  margin-top: 10px;
+}
+.filtr_card .filtr_card_img img {
+  width: 100%;
+}
+.filtr_card .filtr_card_text {
+  padding-top: 20px;
+}
+.filtr_card .filtr_card_text h2 {
+  margin-left: 20px;
+}
+.filtr_card .filtr_card_text h2 a {
+  text-decoration: none;
+  color: black;
+}
+.filtr_card .filtr_card_text h1 {
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+.filtr_card .filtr_card_text p {
+  margin-top: 10px;
+  font-size: 15px;
+  margin: 20px;
+  color: black;
+}
+
+.haqimizda {
+  width: 100%;
+  height: 60vh;
+  background-color: #f5f5f5;
+  padding: 80px;
+}
+
+.carusel_btn {
+  color: red !important;
+}
+
+.haqimizda_nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.haqimizda_nav h1 {
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 600;
+}
+.haqimizda_nav .underline {
+  width: 100px;
+  height: 4px;
+  background-color: red;
+}
+
+.haqimizda_cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0px;
+}
+.haqimizda_cards .haqimizda_card {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.haqimizda_cards .haqimizda_card .haqimizda_card_icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.haqimizda_cards .haqimizda_card p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.manzillar {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+.manzillar .manzillar_cards {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  align-items: center;
+  padding: 40px 40px 40px 70px;
+}
+.manzillar .manzillar_cards .manzil_card {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.manzillar .manzillar_cards .manzil_card :hover {
+  filter: brightness(90%);
+  transition: all 0.3s ease 0s;
+}
+.manzillar .manzillar_cards .manzil_card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  filter: brightness(60%);
+}
+.manzillar .manzillar_cards .manzil_card h1 {
+  color: white;
+}
+
+.raqamlar {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.58)), url("../IMG/main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.raqamlar .raqamlar_cards {
+  width: 100%;
+  height: auto;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.raqamlar .raqamlar_cards .raqamlar_card {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.raqamlar .raqamlar_cards .raqamlar_card i {
+  font-size: 74px;
+  color: white;
+}
+.raqamlar .raqamlar_cards .raqamlar_card .raqam_card_h1 {
+  margin-top: 20px;
+}
+.raqamlar .raqamlar_cards .raqamlar_card .raqam_card_h1 h1 {
+  font-size: 54px;
+  color: #ffb300;
+}
+.raqamlar .raqamlar_cards .raqamlar_card .raqam_card_h1 h2 {
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+
+.ariza {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  background-image: url("../IMG/form.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 40px;
+}
+
+.ariza_card {
+  width: 500px;
+  height: auto;
+  background-color: #f1eee9;
+  padding: 24px 32px;
+  text-align: center;
+}
+.ariza_card h1 {
+  font-size: 28px;
+  width: 100%;
+}
+.ariza_card input {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  padding: 4px 11px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  margin: 7px 0px;
+}
+.ariza_card .comment {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  padding: 4px 11px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  margin: 7px 0px;
+  height: 141.6px;
+  overflow-y: hidden;
+  resize: none;
+  min-height: 141.6px;
+  max-height: 141.6px;
+}
+.ariza_card .ariza_btn {
+  width: 100%;
+  height: 40px;
+  background-color: #FF4200;
+  margin-top: 32px;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 70px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(34, 34, 34);
+}
+footer div {
+  color: white;
+}
+footer div h1 {
+  font-size: 21px;
+}
+footer div p {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+footer div p :hover {
+  color: red;
+  transition: all 0.3s ease 0s;
+}
+footer div a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer div img {
+  width: 130px;
+}
+footer div h2 {
+  margin: 10px;
+}
+footer div h2 :hover {
+  color: red;
+  transition: all 0.3s ease 0s;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.sayohat {
+  width: 100%;
+  height: 230px;
+  padding: 100px;
+  background-image: url("../IMG/maldives-1993704__340 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sayohat h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.sayohat_sec {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+}
+.sayohat_sec .sayohat_sec_nav {
+  width: 100%;
+  height: 50px;
+  padding: 0px 100px;
+  border-bottom: 2px solid red;
+}
+.sayohat_sec h1 {
+  font-size: 30px;
+}
+.sayohat_sec i {
+  color: red;
+  margin: 10px;
+}
+.sayohat_sec .sayohat_sec_nav2 {
+  display: flex;
+  gap: 100px;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+}
+.sayohat_sec .sayohat_sec_nav2 div {
+  display: flex;
+  align-items: center;
+}
+.sayohat_sec .sayohat_sec_nav2 div i {
+  font-size: 25px;
+  margin: 20px;
+}
+.sayohat_sec p {
+  font-size: 16px;
+}
+
+.sayohat_card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  padding: 10px 100px;
+  position: relative;
+}
+.sayohat_card .sayohat_slider {
+  width: 60%;
+}
+.sayohat_card .sayohat_slider .ligth {
+  width: 100%;
+}
+.sayohat_card .sayohat_card_tarif {
+  margin-top: 20px;
+}
+.sayohat_card .sayohat_card_tarif .card_tarif_nav {
+  background-color: red;
+  color: white;
+  width: 180px;
+  height: 40px;
+  border-radius: 3px 3px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sayohat_card .sayohat_card_tarif .card_tarif_nav h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sayohat_card .sayohat_card_tarif .card_tarif_text {
+  padding: 30px 20px;
+  border: 1px solid red;
+}
+.sayohat_card .ariza_card {
+  position: sticky;
+  top: 0px;
+  height: 550px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+<?php 
+    
+ return 
+
+    [
+        'biz_tuygu_ulashamiz' => "Biz his-tuyg'ularni ulashamiz",
+        'tur_nomi' => 'Tur nomi',
+        'filter' => 'Filter',
+        'izlash' => 'Izlash',
+        'bolib_tolash' => "Bolib to'lash",
+        'biz_haqimizda' => 'Biz haqimizda',
+        'turli_yonalish' => "Turli xil yo'nalish",
+        'Har_qanday_yonalishda_qulay_taklif' => "Har qanday yo'nalishda qulay takliflar",
+        'shaxsiy_yondashuv' => 'Shaxsiy yondashuv',
+        'sayohat_tanlash' => "Sayohat tanlashda mijozlarimizning barcha istaklarini batafsil o'rganish",
+        'hamkorlar' => 'Hamkorlar',
+        'hamkor_izoh' => "Biz sizning sayohatingiz ko'ngilday bo'lishi uchun faqat ishonchli turoperatorlar bilan hamkorlik qilamiz",
+        'jamoa' => 'Jamoa',
+        'jamoa_izoh' => "Maqsadlarga erishish uchun ishonchli jamoa",
+        'sayohat_manzillari' => "SAYOHAT MANZILLARI",
+        'biz_raqamlarda' => "BIZ RAQAMLARDA",
+        'mijozlar' => 'MIJOZLAR',
+        'davlarlar' => 'DAVLATLAR',
+        'sayohat' => 'SAYOHAT',
+        'sayohat_turlari' => 'SAYOHAT TURLARI',
+        'ariza_qoldirmoq' => 'Ariza qoldirmoq',
+        'ism' => 'Ism',
+        'tel_raqam' => 'Telefon raqam',
+        'pochta' => 'Pochta',
+        'komentariya' => 'Kommentariya',
+        'yubormoq' => 'Yubormoq',
+        'kontakt' => 'Kontaktlar',
+        'manzil' => '100017, Toshkent, Yunusobod tumani, C-5, 35 uy',
+        'sotsial_aloqa' => 'Sotsial aloqa',
+        'muddatli_tolov' => "Muddatli to'lov",
+        'murojatni_toldiring' => "Murojatnomani to'ldiring va tez orada siz bilan bog'lanamiz",
+        'malumot' => "Ma'lumot",
+    ];

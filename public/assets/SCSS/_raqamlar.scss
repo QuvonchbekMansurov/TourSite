@@ -1,0 +1,45 @@
+.raqamlar {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.58)),url('../IMG/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .raqamlar_cards {
+        width: 100%;
+        height: auto;
+        margin: 40px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        .raqamlar_card {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+
+            i {
+                font-size: 74px;
+                color: white;
+            }
+
+            .raqam_card_h1 {
+                margin-top: 20px;
+
+                h1 {
+                    font-size: 54px;
+                    color: #ffb300;
+                }
+
+                h2 {
+                    font-size: 18px;
+                    color: white;
+                    margin-top: 20px;
+                }
+
+            }
+        }
+    }
+}

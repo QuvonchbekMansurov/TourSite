@@ -1,0 +1,38 @@
+<?php 
+    
+ return 
+
+    [
+        'biz_tuygu_ulashamiz' => "We give emotions",
+        'tur_nomi' => 'Tour name',
+        'filter' => 'Filter',
+        'izlash' => 'Search',
+        'biz_haqimizda' => 'about Us',
+        'bolib_tolash' => "Pay in installments",
+        'turli_yonalish' => "Different direction",
+        'Har_qanday_yonalishda_qulay_taklif' => "Convenient offers in any direction",
+        'shaxsiy_yondashuv' => 'Personal approach',
+        'sayohat_tanlash' => "A detailed study of all the wishes of our customers when choosing a trip",
+        'hamkorlar' => 'Partners',
+        'hamkor_izoh' => "We cooperate only with reliable tour operators to make your trip pleasant",
+        'jamoa' => 'Team',
+        'jamoa_izoh' => "A reliable team to achieve goals",
+        'sayohat_manzillari' => "TRAVEL ADDRESSES",
+        'biz_raqamlarda' => "WE ARE IN THE NUMBERS",
+        'mijozlar' => 'CUSTOMERS',
+        'davlarlar' => 'STATES',
+        'sayohat' => 'TRAVEL',
+        'sayohat_turlari' => 'TYPES OF TRAVEL',
+        'ariza_qoldirmoq' => 'Submit an application',
+        'ism' => 'Name',
+        'tel_raqam' => 'Phone number',
+        'pochta' => 'Mail',
+        'komentariya' => 'Commentary',
+        'yubormoq' => 'To send',
+        'kontakt' => 'Contacts',
+        'manzil' => '100017, Tashkent, Yunusabad district, C-5, 35 house',
+        'sotsial_aloqa' => 'Social communication',
+        'muddatli_tolov' => "Installment payment",
+        'murojatni_toldiring' => "Fill out the form and we will contact you shortly",
+        'malumot' => "Information",
+    ];
